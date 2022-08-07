@@ -2,18 +2,23 @@
 <BuildLog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <ProjectInfo>
     <Name>PRJIntegrationServiceOne</Name>
-    <LastWriteTime>2022-08-07T17:36:09.197115Z</LastWriteTime>
+    <LastWriteTime>2022-08-07T18:11:57.2378258Z</LastWriteTime>
     <LastKnownProtectionLevel>EncryptSensitiveWithUserKey</LastKnownProtectionLevel>
   </ProjectInfo>
   <LastBuildInfos>
     <ProjectBuildItemInfo>
-      <Name>PRJIntegration.dtsx</Name>
-      <LastWriteTime>2022-08-07T17:29:15.1693127Z</LastWriteTime>
+      <Name>01 Pacote.dtsx</Name>
+      <LastWriteTime>2022-08-07T18:01:54.2934471Z</LastWriteTime>
       <LastKnownProtectionLevel>EncryptSensitiveWithUserKey</LastKnownProtectionLevel>
     </ProjectBuildItemInfo>
     <ProjectBuildItemInfo>
-      <Name>Pacote02.dtsx</Name>
-      <LastWriteTime>2022-08-07T17:40:46.3142089Z</LastWriteTime>
+      <Name>02 Pacote.dtsx</Name>
+      <LastWriteTime>2022-08-07T18:02:10.3133215Z</LastWriteTime>
+      <LastKnownProtectionLevel>EncryptSensitiveWithUserKey</LastKnownProtectionLevel>
+    </ProjectBuildItemInfo>
+    <ProjectBuildItemInfo>
+      <Name>03 TransformationPaisesAccesSQLServer.dtsx</Name>
+      <LastWriteTime>2022-08-07T18:16:55.6322651Z</LastWriteTime>
       <LastKnownProtectionLevel>EncryptSensitiveWithUserKey</LastKnownProtectionLevel>
     </ProjectBuildItemInfo>
   </LastBuildInfos>
