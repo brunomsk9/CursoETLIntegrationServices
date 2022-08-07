@@ -48,3 +48,8 @@ GO
 SELECT *
 FROM Projeto.Clientes
 GO
+
+
+-- Atualizando Registros -- 
+UPDATE PRJIntegration.Projeto.Clientes SET Nome = 'Leticia'
+WHERE Nome = 'Ana'
