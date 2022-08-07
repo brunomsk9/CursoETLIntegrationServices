@@ -2,13 +2,13 @@
 <BuildLog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <ProjectInfo>
     <Name>PRJIntegrationServiceOne</Name>
-    <LastWriteTime>2022-08-07T17:06:11.4497885Z</LastWriteTime>
+    <LastWriteTime>2022-08-07T17:17:44.4755739Z</LastWriteTime>
     <LastKnownProtectionLevel>EncryptSensitiveWithUserKey</LastKnownProtectionLevel>
   </ProjectInfo>
   <LastBuildInfos>
     <ProjectBuildItemInfo>
       <Name>PRJIntegration.dtsx</Name>
-      <LastWriteTime>2022-08-07T17:11:10.239318Z</LastWriteTime>
+      <LastWriteTime>2022-08-07T17:17:42.4685815Z</LastWriteTime>
       <LastKnownProtectionLevel>EncryptSensitiveWithUserKey</LastKnownProtectionLevel>
     </ProjectBuildItemInfo>
   </LastBuildInfos>

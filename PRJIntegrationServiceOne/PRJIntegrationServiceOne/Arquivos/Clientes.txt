@@ -1,5 +1,5 @@
-1,Clara,F,clara@gmail.com
-2,Mafra,M,mafra@gmail.com
-3,João,F,joao@gmail.com
-4,Leticia,F,ana@gmail.com
-5,Lilian,F,lilian@gmail.com
+1,Clara,clara@gmail.com
+2,Mafra,mafra@gmail.com
+3,João,joao@gmail.com
+4,Leticia,ana@gmail.com
+5,Lilian,lilian@gmail.com

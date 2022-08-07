@@ -11,65 +11,11 @@
   DTS:LocaleID="1046"
   DTS:ObjectName="Package"
   DTS:PackageType="5"
-  DTS:VersionBuild="9"
-  DTS:VersionGUID="{9C8A0053-F2B2-4DEC-9306-62E43B6835C2}">
+  DTS:VersionBuild="10"
+  DTS:VersionGUID="{4AD9AE6F-5A65-4AD0-9B8A-E19F7CA424A4}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
-    <DTS:ConnectionManager
-      DTS:refId="Package.ConnectionManagers[Clientes]"
-      DTS:CreationName="FLATFILE"
-      DTS:DTSID="{50F74E21-E55B-4DD4-8233-504AD451AB8F}"
-      DTS:ObjectName="Clientes">
-      <DTS:ObjectData>
-        <DTS:ConnectionManager
-          DTS:Format="Delimited"
-          DTS:LocaleID="1046"
-          DTS:HeaderRowDelimiter="_x000D__x000A_"
-          DTS:RowDelimiter=""
-          DTS:TextQualifier="_x003C_none_x003E_"
-          DTS:CodePage="1252"
-          DTS:ConnectionString="C:\Users\bruno\OneDrive - Diretório Padrão\GitPessoal\CursoETLIntegrationServices\PRJIntegrationServiceOne\PRJIntegrationServiceOne\Arquivos\Clientes.txt">
-          <DTS:FlatFileColumns>
-            <DTS:FlatFileColumn
-              DTS:ColumnType="Delimited"
-              DTS:ColumnDelimiter="_x003B_"
-              DTS:DataType="3"
-              DTS:TextQualified="True"
-              DTS:ObjectName="IdClientes"
-              DTS:DTSID="{92E91E27-DC6E-4FD1-ADA0-D6779F884D11}"
-              DTS:CreationName="" />
-            <DTS:FlatFileColumn
-              DTS:ColumnType="Delimited"
-              DTS:ColumnDelimiter="_x003B_"
-              DTS:MaximumWidth="100"
-              DTS:DataType="129"
-              DTS:TextQualified="True"
-              DTS:ObjectName="Nome"
-              DTS:DTSID="{CA52BC97-24B5-4F9B-BDBE-A061BF57A55E}"
-              DTS:CreationName="" />
-            <DTS:FlatFileColumn
-              DTS:ColumnType="Delimited"
-              DTS:ColumnDelimiter="_x003B_"
-              DTS:MaximumWidth="1"
-              DTS:DataType="129"
-              DTS:TextQualified="True"
-              DTS:ObjectName="Sexo"
-              DTS:DTSID="{530CF3F4-46F7-481C-804B-133904537E8C}"
-              DTS:CreationName="" />
-            <DTS:FlatFileColumn
-              DTS:ColumnType="Delimited"
-              DTS:ColumnDelimiter="_x000D__x000A_"
-              DTS:MaximumWidth="100"
-              DTS:DataType="129"
-              DTS:TextQualified="True"
-              DTS:ObjectName="Email"
-              DTS:DTSID="{214536D0-75E9-4D79-B189-74232964D69F}"
-              DTS:CreationName="" />
-          </DTS:FlatFileColumns>
-        </DTS:ConnectionManager>
-      </DTS:ObjectData>
-    </DTS:ConnectionManager>
     <DTS:ConnectionManager
       DTS:refId="Package.ConnectionManagers[DESKTOP-2EBA0F7.master]"
       DTS:CreationName="OLEDB"
@@ -115,7 +61,7 @@
               DTS:DataType="3"
               DTS:TextQualified="True"
               DTS:ObjectName="IdClientes"
-              DTS:DTSID="{DA7A345D-D054-4F18-A005-9C331FED68E5}"
+              DTS:DTSID="{6C354399-896E-45D4-931F-4C4582B6432E}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -124,16 +70,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Nome"
-              DTS:DTSID="{740C958B-D9EF-4274-BA02-5B0B025FCCBE}"
-              DTS:CreationName="" />
-            <DTS:FlatFileColumn
-              DTS:ColumnType="Delimited"
-              DTS:ColumnDelimiter="_x002C_"
-              DTS:MaximumWidth="1"
-              DTS:DataType="129"
-              DTS:TextQualified="True"
-              DTS:ObjectName="Sexo"
-              DTS:DTSID="{B6632546-DAE3-429B-A0C3-73A9FF89970C}"
+              DTS:DTSID="{80D9F6E2-EA3D-4A8B-89C9-62AE58CBF112}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -142,7 +79,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Email"
-              DTS:DTSID="{C1A141C8-7B0B-486A-AD72-36DDA3FEBCCD}"
+              DTS:DTSID="{BB49050F-CA60-470B-99D4-472821D5F0F1}"
               DTS:CreationName="" />
           </DTS:FlatFileColumns>
         </DTS:ConnectionManager>
@@ -216,14 +153,6 @@
                       externalMetadataColumnId="Package\DFClientes\ClientesFlatFile.Inputs[Entrada de Destino de Arquivo Simples].ExternalColumns[Nome]"
                       lineageId="Package\DFClientes\TabelaClientes.Outputs[Saída de Origem OLE DB].Columns[Nome]" />
                     <inputColumn
-                      refId="Package\DFClientes\ClientesFlatFile.Inputs[Entrada de Destino de Arquivo Simples].Columns[Sexo]"
-                      cachedCodepage="1252"
-                      cachedDataType="str"
-                      cachedLength="1"
-                      cachedName="Sexo"
-                      externalMetadataColumnId="Package\DFClientes\ClientesFlatFile.Inputs[Entrada de Destino de Arquivo Simples].ExternalColumns[Sexo]"
-                      lineageId="Package\DFClientes\TabelaClientes.Outputs[Saída de Origem OLE DB].Columns[Sexo]" />
-                    <inputColumn
                       refId="Package\DFClientes\ClientesFlatFile.Inputs[Entrada de Destino de Arquivo Simples].Columns[Email]"
                       cachedCodepage="1252"
                       cachedDataType="str"
@@ -244,12 +173,6 @@
                       dataType="str"
                       length="100"
                       name="Nome" />
-                    <externalMetadataColumn
-                      refId="Package\DFClientes\ClientesFlatFile.Inputs[Entrada de Destino de Arquivo Simples].ExternalColumns[Sexo]"
-                      codePage="1252"
-                      dataType="str"
-                      length="1"
-                      name="Sexo" />
                     <externalMetadataColumn
                       refId="Package\DFClientes\ClientesFlatFile.Inputs[Entrada de Destino de Arquivo Simples].ExternalColumns[Email]"
                       codePage="1252"
