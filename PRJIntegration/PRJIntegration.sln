@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32630.194
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{C9674DCB-5085-4A16-B785-4C70DD1589BD}") = "PRJIntegration", "PRJIntegration\PRJIntegration.dtproj", "{536E61CC-D9AE-4467-A894-09D2E689849A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Development|Default = Development|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{536E61CC-D9AE-4467-A894-09D2E689849A}.Development|Default.ActiveCfg = Development
+		{536E61CC-D9AE-4467-A894-09D2E689849A}.Development|Default.Build.0 = Development
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6162F1D8-56E8-4807-A355-6255AA620FAB}
+	EndGlobalSection
+EndGlobal
