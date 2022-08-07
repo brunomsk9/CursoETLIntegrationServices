@@ -11,8 +11,8 @@
   DTS:LocaleID="1046"
   DTS:ObjectName="Package"
   DTS:PackageType="5"
-  DTS:VersionBuild="10"
-  DTS:VersionGUID="{4AD9AE6F-5A65-4AD0-9B8A-E19F7CA424A4}">
+  DTS:VersionBuild="12"
+  DTS:VersionGUID="{DD770F34-D256-4F93-A525-85279877D989}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -50,6 +50,7 @@
           DTS:Format="Delimited"
           DTS:LocaleID="1046"
           DTS:HeaderRowDelimiter="_x000D__x000A_"
+          DTS:ColumnNamesInFirstDataRow="True"
           DTS:RowDelimiter=""
           DTS:TextQualifier="_x003C_none_x003E_"
           DTS:CodePage="1252"
@@ -61,7 +62,7 @@
               DTS:DataType="3"
               DTS:TextQualified="True"
               DTS:ObjectName="IdClientes"
-              DTS:DTSID="{6C354399-896E-45D4-931F-4C4582B6432E}"
+              DTS:DTSID="{24D9E7CA-42A9-410F-8D85-DDEAFBD5F72F}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -70,7 +71,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Nome"
-              DTS:DTSID="{80D9F6E2-EA3D-4A8B-89C9-62AE58CBF112}"
+              DTS:DTSID="{F936AAAF-5ABD-45D8-92C9-55FF827E0765}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -79,7 +80,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Email"
-              DTS:DTSID="{BB49050F-CA60-470B-99D4-472821D5F0F1}"
+              DTS:DTSID="{F37D9328-DF4C-4754-BAF6-8AE7CD54EAC8}"
               DTS:CreationName="" />
           </DTS:FlatFileColumns>
         </DTS:ConnectionManager>
@@ -398,13 +399,13 @@
       <GraphLayout
         Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
         <NodeLayout
-          Size="153,42"
-          Id="Package\DFClientes\TabelaClientes"
-          TopLeft="149,51" />
-        <NodeLayout
           Size="155,42"
           Id="Package\DFClientes\ClientesFlatFile"
           TopLeft="339,103" />
+        <NodeLayout
+          Size="153,42"
+          Id="Package\DFClientes\TabelaClientes"
+          TopLeft="149,51" />
         <EdgeLayout
           Id="Package\DFClientes.Paths[Saída de Origem OLE DB]"
           TopLeft="302,72">

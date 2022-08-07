@@ -2,13 +2,18 @@
 <BuildLog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <ProjectInfo>
     <Name>PRJIntegrationServiceOne</Name>
-    <LastWriteTime>2022-08-07T17:17:44.4755739Z</LastWriteTime>
+    <LastWriteTime>2022-08-07T17:36:09.197115Z</LastWriteTime>
     <LastKnownProtectionLevel>EncryptSensitiveWithUserKey</LastKnownProtectionLevel>
   </ProjectInfo>
   <LastBuildInfos>
     <ProjectBuildItemInfo>
       <Name>PRJIntegration.dtsx</Name>
-      <LastWriteTime>2022-08-07T17:17:42.4685815Z</LastWriteTime>
+      <LastWriteTime>2022-08-07T17:29:15.1693127Z</LastWriteTime>
+      <LastKnownProtectionLevel>EncryptSensitiveWithUserKey</LastKnownProtectionLevel>
+    </ProjectBuildItemInfo>
+    <ProjectBuildItemInfo>
+      <Name>Pacote02.dtsx</Name>
+      <LastWriteTime>2022-08-07T17:40:46.3142089Z</LastWriteTime>
       <LastKnownProtectionLevel>EncryptSensitiveWithUserKey</LastKnownProtectionLevel>
     </ProjectBuildItemInfo>
   </LastBuildInfos>

@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<DTS:ConnectionManager xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:ObjectName="DESKTOP-2EBA0F7.PRJIntegration"
+  DTS:DTSID="{A81152D2-45E1-468A-9FD7-53CBE6B40D33}"
+  DTS:CreationName="OLEDB">
+  <DTS:ObjectData>
+    <DTS:ConnectionManager
+      DTS:ConnectRetryCount="1"
+      DTS:ConnectRetryInterval="5"
+      DTS:ConnectionString="Data Source=DESKTOP-2EBA0F7;Initial Catalog=PRJIntegration;Provider=SQLNCLI11.1;Integrated Security=SSPI;Application Name=SSIS-PRJIntegrationServiceOne-{A81152D2-45E1-468A-9FD7-53CBE6B40D33}DESKTOP-2EBA0F7.PRJIntegration;Auto Translate=False;" />
+  </DTS:ObjectData>
+</DTS:ConnectionManager>
